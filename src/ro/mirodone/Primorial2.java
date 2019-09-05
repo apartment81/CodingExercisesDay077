@@ -4,6 +4,7 @@ public class Primorial2 {
 
     public String numPrimorial(int n) {
 
+
         long primorial = 1, factor = 1;
 
         while (n != 0) {

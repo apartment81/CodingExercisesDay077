@@ -12,7 +12,7 @@ public class Main {
         System.out.println(primorial2.numPrimorial(4));
 
 
-        int n = 5;
+        int n = 199;
         primorial.sieveSundaram();
         for (int i = 1; i <= n; i++) {
             System.out.println("Primorial(P#) of " + i + " is " + primorial.calculatePrimorial(i));
